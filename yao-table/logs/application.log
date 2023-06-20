@@ -1,0 +1,589 @@
+time="2023-06-20T02:21:30Z" level=error msg="[disk.Walk] /data/app/certs lstat /data/app/certs: no such file or directory"
+time="2023-06-20T02:21:30Z" level=error msg="[disk.Walk] /data/app/connectors lstat /data/app/connectors: no such file or directory"
+time="2023-06-20T02:21:30Z" level=error msg="[disk.Walk] /data/app/langs lstat /data/app/langs: no such file or directory"
+time="2023-06-20T02:21:30Z" level=error msg="[disk.Walk] /data/app/scripts lstat /data/app/scripts: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/stores lstat /data/app/stores: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/lists lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/charts lstat /data/app/charts: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/dashboards lstat /data/app/dashboards: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/imports lstat /data/app/imports: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/tasks lstat /data/app/tasks: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/schedules lstat /data/app/schedules: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/widgets lstat /data/app/widgets: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/aigcs lstat /data/app/aigcs: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="[disk.Walk] /data/app/studio lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:21:31Z" level=error msg="Studio Load: lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:21:31Z" level=trace msg="Session Store:REDIS HOST:124.221.23.125 PORT:10003 DB:1"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/menu       --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/app/icons/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setup      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/check      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/service/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/search --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/get  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/save --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/insert --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/get   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/images/search        --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/images/save          --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (5 handlers)
+[GIN-debug] POST   /api/xiang/import/:name   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/import/:name/data --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/data/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/storage/upload --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/readfile --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/url    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/xiang/storage/token  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/login/admin    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/admin/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/login/user     --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/user/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/apis"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/flows"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/flows/app"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/forms"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/logins"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/models"
+time="2023-06-20T02:21:31Z" level=info msg="[Watch] Watching: /data/app/tables"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/certs lstat /data/app/certs: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/connectors lstat /data/app/connectors: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/langs lstat /data/app/langs: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/scripts lstat /data/app/scripts: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/stores lstat /data/app/stores: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/lists lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/charts lstat /data/app/charts: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/dashboards lstat /data/app/dashboards: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/imports lstat /data/app/imports: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/tasks lstat /data/app/tasks: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/schedules lstat /data/app/schedules: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/widgets lstat /data/app/widgets: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/aigcs lstat /data/app/aigcs: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="[disk.Walk] /data/app/studio lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:30:45Z" level=error msg="Studio Load: lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:30:46Z" level=trace msg="Session Store:REDIS HOST:124.221.23.125 PORT:10003 DB:1"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/__yao/form/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/images/search        --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/images/save          --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (5 handlers)
+[GIN-debug] POST   /api/xiang/import/:name   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/import/:name/data --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/data/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/storage/upload --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/readfile --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/url    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/xiang/storage/token  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/login/admin    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/admin/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/login/user     --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/user/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/menu       --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/app/icons/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setup      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/check      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/service/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/search --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/get  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/save --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/insert --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/get   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/apis"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/flows"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/flows/app"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/forms"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/logins"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/models"
+time="2023-06-20T02:30:46Z" level=info msg="[Watch] Watching: /data/app/tables"
+[GIN] 2023/06/20 - 02:30:53 | 200 |      1.0858ms |      172.17.0.1 | GET      "/admin/login/admin"
+[GIN] 2023/06/20 - 02:30:53 | 200 |      9.6255ms |      172.17.0.1 | GET      "/admin/icon_font.css"
+[GIN] 2023/06/20 - 02:30:53 | 200 |      9.1283ms |      172.17.0.1 | GET      "/admin/umi.css"
+[GIN] 2023/06/20 - 02:30:53 | 200 |     15.4625ms |      172.17.0.1 | GET      "/admin/framework.js"
+[GIN] 2023/06/20 - 02:30:53 | 200 |       34.03ms |      172.17.0.1 | GET      "/admin/theme/light.css"
+[GIN] 2023/06/20 - 02:30:53 | 200 |     55.6723ms |      172.17.0.1 | GET      "/admin/umi.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      5.4671ms |      172.17.0.1 | GET      "/admin/shared-Z7dPfJDwrSsb0LxJw6truEWlSg_.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      7.3187ms |      172.17.0.1 | GET      "/admin/@-public-theme-dark_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      6.4792ms |      172.17.0.1 | GET      "/admin/acorn-lib.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      7.8436ms |      172.17.0.1 | GET      "/admin/shared-5ElL1oBauYoLnamDi6zaVLiA6g_.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |     10.9848ms |      172.17.0.1 | GET      "/admin/@-public-theme-light_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      4.0007ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.chunk.css"
+[GIN] 2023/06/20 - 02:30:54 | 200 |       1.891ms |      172.17.0.1 | GET      "/admin/layouts__index.chunk.css"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      9.9798ms |      172.17.0.1 | GET      "/admin/shared-vWVMwxF7r9AVT8rpVDjJZZDsze8_.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      3.0706ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |     11.2917ms |      172.17.0.1 | GET      "/admin/layouts__index.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      1.7859ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Regular.ttf"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      1.8111ms |      172.17.0.1 | GET      "/admin/p__login__admin__index.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      2.0032ms |      172.17.0.1 | GET      "/admin/p__login__admin__index.chunk.css"
+[GIN] 2023/06/20 - 02:30:54 | 200 |      1.9155ms |      172.17.0.1 | GET      "/admin/shared-gKdRnYVX94jkmsivbinWTMhCVoA_.async.js"
+[GIN] 2023/06/20 - 02:30:54 | 200 |     36.2476ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:30:54 | 400 |       820.3µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:30:55 | 400 |       933.4µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:30:55 | 200 |     42.5028ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:30:55 | 200 |      1.5105ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Bold.ttf"
+[GIN] 2023/06/20 - 02:30:55 | 200 |      2.0897ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-SemiBold.ttf"
+[GIN] 2023/06/20 - 02:30:55 | 200 |      4.9634ms |      172.17.0.1 | GET      "/admin/icon/fa_icon.woff"
+[GIN] 2023/06/20 - 02:30:55 | 200 |      7.3174ms |      172.17.0.1 | GET      "/admin/icon/md_icon_outline.otf"
+time="2023-06-20T02:30:55Z" level=debug msg="ID:AdY6whdu38OtKtMmVJ1O Image Captcha:624199"
+[GIN] 2023/06/20 - 02:30:55 | 200 |      3.6422ms |      172.17.0.1 | GET      "/api/__yao/login/admin/captcha?type=digit"
+[GIN] 2023/06/20 - 02:30:55 | 400 |      2.1929ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:30:55 | 200 |       527.6µs |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+time="2023-06-20T02:32:05Z" level=debug msg=processLoginAdmin payload="map[captcha:map[code:624199 id:AdY6whdu38OtKtMmVJ1O] captcha.code:624199 captcha.id:AdY6whdu38OtKtMmVJ1O email:xiang@iqka.com password:A123456p+ sid:FzUl4HzZ32VleJfw2mbvY1687228255011]"
+[GIN] 2023/06/20 - 02:32:05 | 400 |      2.6921ms |      172.17.0.1 | POST     "/api/__yao/login/admin"
+time="2023-06-20T02:32:05Z" level=debug msg="ID:ZrvpKC5ucV1GVdbyDifO Image Captcha:152296"
+[GIN] 2023/06/20 - 02:32:05 | 200 |       6.601ms |      172.17.0.1 | GET      "/api/__yao/login/admin/captcha?type=digit"
+time="2023-06-20T02:32:33Z" level=info msg="[Watch] Exit(1)"
+time="2023-06-20T02:32:33Z" level=info msg="[Watch] handler exit"
+time="2023-06-20T02:32:33Z" level=info msg="[Server] 0.0.0.0:5099 was closed"
+time="2023-06-20T02:32:33Z" level=info msg="[Server] 0.0.0.0:5099 was closed"
+time="2023-06-20T02:32:34Z" level=error msg="[disk.Walk] /data/app/certs lstat /data/app/certs: no such file or directory"
+time="2023-06-20T02:32:34Z" level=error msg="[disk.Walk] /data/app/connectors lstat /data/app/connectors: no such file or directory"
+time="2023-06-20T02:32:34Z" level=error msg="[disk.Walk] /data/app/langs lstat /data/app/langs: no such file or directory"
+time="2023-06-20T02:32:34Z" level=error msg="[disk.Walk] /data/app/scripts lstat /data/app/scripts: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/stores lstat /data/app/stores: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/lists lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/charts lstat /data/app/charts: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/dashboards lstat /data/app/dashboards: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/imports lstat /data/app/imports: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/tasks lstat /data/app/tasks: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/schedules lstat /data/app/schedules: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/widgets lstat /data/app/widgets: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/aigcs lstat /data/app/aigcs: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="[disk.Walk] /data/app/studio lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:32:35Z" level=error msg="Studio Load: lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:32:35Z" level=trace msg="Session Store:REDIS HOST:124.221.23.125 PORT:10003 DB:1"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /api/__yao/form/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/images/search        --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/images/save          --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (5 handlers)
+[GIN-debug] POST   /api/xiang/import/:name   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/import/:name/data --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/data/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/storage/upload --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/readfile --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/url    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/xiang/storage/token  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/login/admin    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/admin/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/login/user     --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/user/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/menu       --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/app/icons/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setup      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/check      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/service/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/search --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/get  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/save --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/insert --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/get   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/apis"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/flows"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/flows/app"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/forms"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/logins"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/models"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/models/admin"
+time="2023-06-20T02:32:35Z" level=info msg="[Watch] Watching: /data/app/tables"
+[GIN] 2023/06/20 - 02:32:38 | 200 |       595.3µs |      172.17.0.1 | GET      "/admin/login/admin"
+[GIN] 2023/06/20 - 02:32:38 | 200 |      2.6685ms |      172.17.0.1 | GET      "/admin/icon_font.css"
+[GIN] 2023/06/20 - 02:32:38 | 200 |      6.5576ms |      172.17.0.1 | GET      "/admin/umi.css"
+[GIN] 2023/06/20 - 02:32:38 | 200 |       8.306ms |      172.17.0.1 | GET      "/admin/framework.js"
+[GIN] 2023/06/20 - 02:32:38 | 200 |      8.5442ms |      172.17.0.1 | GET      "/admin/theme/light.css"
+[GIN] 2023/06/20 - 02:32:38 | 200 |     48.1492ms |      172.17.0.1 | GET      "/admin/umi.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      3.6811ms |      172.17.0.1 | GET      "/admin/acorn-lib.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      8.1437ms |      172.17.0.1 | GET      "/admin/@-public-theme-light_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      2.6056ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.chunk.css"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      9.3247ms |      172.17.0.1 | GET      "/admin/@-public-theme-dark_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      5.0499ms |      172.17.0.1 | GET      "/admin/shared-Z7dPfJDwrSsb0LxJw6truEWlSg_.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      15.049ms |      172.17.0.1 | GET      "/admin/shared-5ElL1oBauYoLnamDi6zaVLiA6g_.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      1.4862ms |      172.17.0.1 | GET      "/admin/layouts__index.chunk.css"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      8.6386ms |      172.17.0.1 | GET      "/admin/shared-vWVMwxF7r9AVT8rpVDjJZZDsze8_.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |     11.9872ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |     10.5125ms |      172.17.0.1 | GET      "/admin/layouts__index.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      6.5187ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Regular.ttf"
+[GIN] 2023/06/20 - 02:32:39 | 200 |       747.3µs |      172.17.0.1 | GET      "/admin/p__login__admin__index.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |       862.9µs |      172.17.0.1 | GET      "/admin/p__login__admin__index.chunk.css"
+[GIN] 2023/06/20 - 02:32:39 | 200 |       952.4µs |      172.17.0.1 | GET      "/admin/shared-gKdRnYVX94jkmsivbinWTMhCVoA_.async.js"
+[GIN] 2023/06/20 - 02:32:39 | 200 |     85.7083ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      1.2424ms |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      3.1089ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Bold.ttf"
+[GIN] 2023/06/20 - 02:32:39 | 200 |      1.1405ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-SemiBold.ttf"
+[GIN] 2023/06/20 - 02:32:39 | 200 |       4.209ms |      172.17.0.1 | GET      "/admin/icon/fa_icon.woff"
+[GIN] 2023/06/20 - 02:32:39 | 200 |     11.0808ms |      172.17.0.1 | GET      "/admin/icon/md_icon_outline.otf"
+[GIN] 2023/06/20 - 02:32:39 | 200 |     87.1865ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:32:39 | 400 |       875.7µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+time="2023-06-20T02:32:40Z" level=debug msg="ID:CsTIiwFkRe5yLUks6HZ9 Image Captcha:367000"
+[GIN] 2023/06/20 - 02:32:40 | 200 |      3.7396ms |      172.17.0.1 | GET      "/api/__yao/login/admin/captcha?type=digit"
+[GIN] 2023/06/20 - 02:32:40 | 400 |      1.0758ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:32:40 | 304 |       452.1µs |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+time="2023-06-20T02:32:52Z" level=debug msg="ID:tcgeU5R18yZHu5wfqcgd Image Captcha:382635"
+[GIN] 2023/06/20 - 02:32:52 | 200 |      2.5587ms |      172.17.0.1 | GET      "/api/__yao/login/admin/captcha?type=digit"
+time="2023-06-20T02:33:00Z" level=debug msg=processLoginAdmin payload="map[captcha:map[code:382635 id:tcgeU5R18yZHu5wfqcgd] captcha.code:382635 captcha.id:tcgeU5R18yZHu5wfqcgd email:xiang@iqka.com password:A123456p+ sid:eVG3MsYuAGDh6gBgSxyMm1687228359849]"
+time="2023-06-20T02:33:00Z" level=trace msg="QueryStack run()" bindings="[xiang@iqka.com enabled]" sql="select `admin_user`.`id` as `admin_user_id`, `admin_user`.`password` as `admin_user_password`, `admin_user`.`name` as `admin_user_name`, `admin_user`.`type` as `admin_user_type`, `admin_user`.`email` as `admin_user_email`, AES_DECRYPT(UNHEX(`admin_user`.`mobile`), '') as admin_user_mobile, `admin_user`.`extra` as `admin_user_extra`, `admin_user`.`status` as `admin_user_status` from `admin_user` as `admin_user` where `admin_user`.`email` = ? and `admin_user`.`status` = ? and `admin_user`.`deleted_at` is null limit 1"
+time="2023-06-20T02:33:00Z" level=debug msg="[login] auth sid=eVG3MsYuAGDh6gBgSxyMm1687228359849"
+[GIN] 2023/06/20 - 02:33:00 | 200 |      163.03ms |      172.17.0.1 | POST     "/api/__yao/login/admin"
+[GIN] 2023/06/20 - 02:33:01 | 200 |       699.6µs |      172.17.0.1 | GET      "/admin/p__x__$.async.js"
+[GIN] 2023/06/20 - 02:33:01 | 400 |      1.2168ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:33:01 | 400 |       981.9µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:33:01 | 200 |      7.3033ms |      172.17.0.1 | GET      "/admin/2956.async.js"
+[GIN] 2023/06/20 - 02:33:01 | 200 |     21.1334ms |      172.17.0.1 | GET      "/admin/shared-yPf-Ow5BvoRtVodZLPIBjbiJoc_.async.js"
+[GIN] 2023/06/20 - 02:33:01 | 404 |         1.1µs |      172.17.0.1 | GET      "/api/__yao/dashboard/kanban/data"
+[GIN] 2023/06/20 - 02:33:01 | 404 |         600ns |      172.17.0.1 | GET      "/api/__yao/dashboard/kanban/setting"
+[GIN] 2023/06/20 - 02:33:07 | 200 |       819.5µs |      172.17.0.1 | GET      "/admin/2568.chunk.css"
+[GIN] 2023/06/20 - 02:33:07 | 200 |      1.2336ms |      172.17.0.1 | GET      "/admin/2568.async.js"
+[GIN] 2023/06/20 - 02:33:07 | 400 |       948.5µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:33:07 | 404 |        31.3µs |      172.17.0.1 | GET      "/api/__yao/table/images/setting"
+[GIN] 2023/06/20 - 02:33:07 | 404 |       126.1µs |      172.17.0.1 | GET      "/api/__yao/table/images/search"
+[GIN] 2023/06/20 - 02:33:07 | 200 |       6.383ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Medium.ttf"
+time="2023-06-20T02:33:34Z" level=info msg="[Watch] Exit(1)"
+time="2023-06-20T02:33:34Z" level=info msg="[Watch] handler exit"
+time="2023-06-20T02:33:34Z" level=info msg="[Server] 0.0.0.0:5099 was closed"
+time="2023-06-20T02:33:34Z" level=info msg="[Server] 0.0.0.0:5099 was closed"
+time="2023-06-20T02:33:35Z" level=error msg="[disk.Walk] /data/app/certs lstat /data/app/certs: no such file or directory"
+time="2023-06-20T02:33:35Z" level=error msg="[disk.Walk] /data/app/connectors lstat /data/app/connectors: no such file or directory"
+time="2023-06-20T02:33:35Z" level=error msg="[disk.Walk] /data/app/langs lstat /data/app/langs: no such file or directory"
+time="2023-06-20T02:33:35Z" level=error msg="[disk.Walk] /data/app/scripts lstat /data/app/scripts: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/stores lstat /data/app/stores: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/lists lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="lstat /data/app/lists: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/charts lstat /data/app/charts: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/dashboards lstat /data/app/dashboards: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/imports lstat /data/app/imports: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/tasks lstat /data/app/tasks: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/schedules lstat /data/app/schedules: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/widgets lstat /data/app/widgets: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/aigcs lstat /data/app/aigcs: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="[disk.Walk] /data/app/studio lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:33:36Z" level=error msg="Studio Load: lstat /data/app/studio: no such file or directory"
+time="2023-06-20T02:33:36Z" level=trace msg="Session Store:REDIS HOST:124.221.23.125 PORT:10003 DB:1"
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /api/xiang/import/:name   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/import/:name/data --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/data/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/import/:name/mapping/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/xiang/storage/upload --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/readfile --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/xiang/storage/url    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/xiang/storage/token  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/login/admin    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/admin/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/login/user     --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/login/user/captcha --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setting    --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] GET    /api/__yao/app/menu       --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/app/icons/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/setup      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/check      --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (3 handlers)
+[GIN-debug] POST   /api/__yao/app/service/:name --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/search --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/get  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/table/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/save --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/insert --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/update/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/where --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/table/:id/delete/in --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/get   --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/list/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/list/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/setting --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/find/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/component/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/upload/:xpath/:method --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/__yao/form/:id/download/:field --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/save  --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/create --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/update/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/__yao/form/:id/delete/:primary --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] GET    /api/images/search        --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (4 handlers)
+[GIN-debug] POST   /api/images/save          --> github.com/yaoapp/gou/api.Path.defaultHandler.func1 (5 handlers)
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/apis"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/flows"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/flows/app"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/forms"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/logins"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/models"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/models/admin"
+time="2023-06-20T02:33:36Z" level=info msg="[Watch] Watching: /data/app/tables"
+[GIN] 2023/06/20 - 02:33:39 | 200 |       587.3µs |      172.17.0.1 | GET      "/admin/x/Table/images"
+[GIN] 2023/06/20 - 02:33:39 | 200 |         739µs |      172.17.0.1 | GET      "/admin/icon_font.css"
+[GIN] 2023/06/20 - 02:33:39 | 200 |      8.0762ms |      172.17.0.1 | GET      "/admin/umi.css"
+[GIN] 2023/06/20 - 02:33:39 | 200 |       5.876ms |      172.17.0.1 | GET      "/admin/framework.js"
+[GIN] 2023/06/20 - 02:33:39 | 200 |     16.1431ms |      172.17.0.1 | GET      "/admin/theme/light.css"
+[GIN] 2023/06/20 - 02:33:39 | 200 |     40.6898ms |      172.17.0.1 | GET      "/admin/umi.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      4.9562ms |      172.17.0.1 | GET      "/admin/acorn-lib.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      7.2971ms |      172.17.0.1 | GET      "/admin/@-public-theme-light_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      7.4883ms |      172.17.0.1 | GET      "/admin/@-public-theme-dark_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      3.0074ms |      172.17.0.1 | GET      "/admin/shared-Z7dPfJDwrSsb0LxJw6truEWlSg_.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      6.1542ms |      172.17.0.1 | GET      "/admin/shared-5ElL1oBauYoLnamDi6zaVLiA6g_.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      6.8352ms |      172.17.0.1 | GET      "/admin/shared-vWVMwxF7r9AVT8rpVDjJZZDsze8_.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      1.7333ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.chunk.css"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      1.1118ms |      172.17.0.1 | GET      "/admin/layouts__index.chunk.css"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      2.9251ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Regular.ttf"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      2.9355ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      5.1192ms |      172.17.0.1 | GET      "/admin/layouts__index.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |         542µs |      172.17.0.1 | GET      "/admin/p__x__$.async.js"
+[GIN] 2023/06/20 - 02:33:40 | 200 |      1.2041ms |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+[GIN] 2023/06/20 - 02:33:40 | 200 |    161.0267ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:33:41 | 400 |       900.5µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:33:41 | 200 |      5.4702ms |      172.17.0.1 | GET      "/admin/2568.chunk.css"
+[GIN] 2023/06/20 - 02:33:41 | 200 |      5.4402ms |      172.17.0.1 | GET      "/admin/2568.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 400 |      1.7023ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:33:41 | 400 |       848.8µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:33:41 | 200 |      1.6336ms |      172.17.0.1 | GET      "/admin/icon/fa_icon.woff"
+[GIN] 2023/06/20 - 02:33:41 | 200 |     27.3451ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Medium.ttf"
+[GIN] 2023/06/20 - 02:33:41 | 304 |      1.2668ms |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: bearer-jwt"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: bearer-jwt"
+[GIN] 2023/06/20 - 02:33:41 | 200 |    131.6015ms |      172.17.0.1 | GET      "/api/__yao/table/images/setting"
+[GIN] 2023/06/20 - 02:33:41 | 200 |       612.7µs |      172.17.0.1 | GET      "/admin/7769.chunk.css"
+[GIN] 2023/06/20 - 02:33:41 | 200 |       666.9µs |      172.17.0.1 | GET      "/admin/3578.chunk.css"
+[GIN] 2023/06/20 - 02:33:41 | 200 |    163.8688ms |      172.17.0.1 | GET      "/api/__yao/table/images/search"
+[GIN] 2023/06/20 - 02:33:41 | 200 |         815µs |      172.17.0.1 | GET      "/admin/3578.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 200 |       470.3µs |      172.17.0.1 | GET      "/admin/7769.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 200 |      1.4791ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-SemiBold.ttf"
+[GIN] 2023/06/20 - 02:33:41 | 200 |     12.7863ms |      172.17.0.1 | GET      "/admin/shared-yPf-Ow5BvoRtVodZLPIBjbiJoc_.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 200 |      1.6297ms |      172.17.0.1 | GET      "/admin/8302.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 200 |         489µs |      172.17.0.1 | GET      "/admin/5924.async.js"
+[GIN] 2023/06/20 - 02:33:41 | 200 |       869.3µs |      172.17.0.1 | GET      "/admin/3254.chunk.css"
+[GIN] 2023/06/20 - 02:33:41 | 200 |       815.1µs |      172.17.0.1 | GET      "/admin/3254.async.js"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png: no such file or directory"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png: no such file or directory"
+[GIN] 2023/06/20 - 02:33:41 | 500 |      3.6576ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:33:41 | 500 |       4.397ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png: no such file or directory"
+[GIN] 2023/06/20 - 02:33:41 | 500 |      7.9234ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png: no such file or directory"
+[GIN] 2023/06/20 - 02:33:41 | 500 |      8.9681ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/061675D1-269E-441E-934D-18C6D33EA5C0.jpg: no such file or directory"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/3891B1AF-8BA3-4F45-984C-9E6B5BDA5137.jpg: no such file or directory"
+time="2023-06-20T02:33:41Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/16E4724F-5CE0-44F2-9F33-98A0473BF988.png: no such file or directory"
+[GIN] 2023/06/20 - 02:33:41 | 500 |     23.4698ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/061675D1-269E-441E-934D-18C6D33EA5C0.jpg&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:33:41 | 500 |       28.24ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/3891B1AF-8BA3-4F45-984C-9E6B5BDA5137.jpg&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:33:41 | 500 |     20.0997ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/16E4724F-5CE0-44F2-9F33-98A0473BF988.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:33:41 | 400 |       444.8µs |      172.17.0.1 | GET      "/api/xiang/import/images/setting"
+[GIN] 2023/06/20 - 02:33:51 | 200 |       965.7µs |      172.17.0.1 | GET      "/admin/3637.chunk.css"
+[GIN] 2023/06/20 - 02:33:51 | 200 |       935.1µs |      172.17.0.1 | GET      "/admin/3637.async.js"
+time="2023-06-20T02:33:51Z" level=trace msg="Widget: images Guard: bearer-jwt"
+[GIN] 2023/06/20 - 02:33:51 | 200 |     87.7266ms |      172.17.0.1 | GET      "/api/__yao/form/images/setting"
+[GIN] 2023/06/20 - 02:33:51 | 200 |       836.3µs |      172.17.0.1 | GET      "/admin/6913.chunk.css"
+[GIN] 2023/06/20 - 02:33:51 | 200 |       501.4µs |      172.17.0.1 | GET      "/admin/6357.async.js"
+[GIN] 2023/06/20 - 02:33:51 | 200 |      1.0161ms |      172.17.0.1 | GET      "/admin/6913.async.js"
+[GIN] 2023/06/20 - 02:33:51 | 200 |      1.3193ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Bold.ttf"
+time="2023-06-20T02:33:57Z" level=trace msg="Widget: images Guard: bearer-jwt"
+time="2023-06-20T02:33:57Z" level=info msg="[Watch] Watching: /data"
+time="2023-06-20T02:33:57Z" level=info msg="[Watch] Watching: /data/20230620"
+time="2023-06-20T02:33:57Z" level=info msg="[Watch] IGNORE /data/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png"
+time="2023-06-20T02:33:57Z" level=info msg="[Watch] IGNORE /data/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png"
+[GIN] 2023/06/20 - 02:33:57 | 200 |     69.4435ms |      172.17.0.1 | POST     "/api/__yao/form/images/upload/fields.form.缩略图.edit.props/api"
+time="2023-06-20T02:33:57Z" level=trace msg="Widget: images Guard: -"
+[GIN] 2023/06/20 - 02:33:57 | 200 |     28.0228ms |      172.17.0.1 | GET      "/api/__yao/form/images/download/fields.form.缩略图?name=/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:33:59Z" level=trace msg="Widget: images Guard: bearer-jwt"
+time="2023-06-20T02:34:00Z" level=debug msg="insert into `images` (`created_at`, `name`, `urls`, `description`) values (CURRENT_TIMESTAMP,?,?,?)" bindings="[21321 [\"/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png\"] 21321321]"
+[GIN] 2023/06/20 - 02:34:00 | 200 |     74.5015ms |      172.17.0.1 | POST     "/api/__yao/form/images/save"
+time="2023-06-20T02:34:00Z" level=trace msg="Widget: images Guard: bearer-jwt"
+[GIN] 2023/06/20 - 02:34:00 | 200 |    172.4242ms |      172.17.0.1 | GET      "/api/__yao/table/images/search"
+time="2023-06-20T02:34:00Z" level=trace msg="Widget: images Guard: -"
+[GIN] 2023/06/20 - 02:34:00 | 200 |     19.9687ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:34:04 | 304 |       853.9µs |      172.17.0.1 | GET      "/admin/x/Table/images"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      1.6158ms |      172.17.0.1 | GET      "/admin/icon_font.css"
+[GIN] 2023/06/20 - 02:34:04 | 304 |       923.8µs |      172.17.0.1 | GET      "/admin/umi.css"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      9.0994ms |      172.17.0.1 | GET      "/admin/framework.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |     11.8931ms |      172.17.0.1 | GET      "/admin/theme/light.css"
+[GIN] 2023/06/20 - 02:34:04 | 304 |     33.7881ms |      172.17.0.1 | GET      "/admin/umi.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      6.9286ms |      172.17.0.1 | GET      "/admin/@-public-theme-light_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |       6.903ms |      172.17.0.1 | GET      "/admin/@-public-theme-dark_sss-lib.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      4.9151ms |      172.17.0.1 | GET      "/admin/acorn-lib.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |       309.5µs |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.chunk.css"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      4.9122ms |      172.17.0.1 | GET      "/admin/shared-Z7dPfJDwrSsb0LxJw6truEWlSg_.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      8.1824ms |      172.17.0.1 | GET      "/admin/shared-vWVMwxF7r9AVT8rpVDjJZZDsze8_.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      6.8071ms |      172.17.0.1 | GET      "/admin/shared-5ElL1oBauYoLnamDi6zaVLiA6g_.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      1.4661ms |      172.17.0.1 | GET      "/admin/layouts__index.chunk.css"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      1.8083ms |      172.17.0.1 | GET      "/admin/shared-cAu-svfPz98u0s3SKsqWXmvbUQ_.async.js"
+[GIN] 2023/06/20 - 02:34:04 | 304 |       951.7µs |      172.17.0.1 | GET      "/admin/font/static/Outfit-Regular.ttf"
+[GIN] 2023/06/20 - 02:34:04 | 304 |      2.3247ms |      172.17.0.1 | GET      "/admin/layouts__index.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 200 |     34.0864ms |      172.17.0.1 | POST     "/api/__yao/app/setting"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       450.1µs |      172.17.0.1 | GET      "/admin/p__x__$.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 400 |       970.7µs |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      1.1517ms |      172.17.0.1 | GET      "/admin/2568.chunk.css"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      1.0622ms |      172.17.0.1 | GET      "/admin/2568.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 400 |      1.0544ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:34:05 | 400 |        1.22ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:34:05 | 400 |      1.1599ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.ico"
+[GIN] 2023/06/20 - 02:34:05 | 400 |      1.1445ms |      172.17.0.1 | GET      "/api/__yao/app/icons/app.png"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      2.7333ms |      172.17.0.1 | GET      "/admin/icon/fa_icon.woff"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      2.9394ms |      172.17.0.1 | GET      "/admin/static/favicon.507a8f20.ico"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      3.0145ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-Medium.ttf"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: bearer-jwt"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: bearer-jwt"
+[GIN] 2023/06/20 - 02:34:05 | 200 |    172.5294ms |      172.17.0.1 | GET      "/api/__yao/table/images/setting"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       971.5µs |      172.17.0.1 | GET      "/admin/3578.chunk.css"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       704.8µs |      172.17.0.1 | GET      "/admin/7769.chunk.css"
+[GIN] 2023/06/20 - 02:34:05 | 200 |    258.5241ms |      172.17.0.1 | GET      "/api/__yao/table/images/search"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       714.8µs |      172.17.0.1 | GET      "/admin/3578.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       761.8µs |      172.17.0.1 | GET      "/admin/7769.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 304 |     11.3197ms |      172.17.0.1 | GET      "/admin/shared-yPf-Ow5BvoRtVodZLPIBjbiJoc_.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      1.5841ms |      172.17.0.1 | GET      "/admin/8302.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      2.7322ms |      172.17.0.1 | GET      "/admin/font/static/Outfit-SemiBold.ttf"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      1.2391ms |      172.17.0.1 | GET      "/admin/5924.async.js"
+[GIN] 2023/06/20 - 02:34:05 | 304 |       843.6µs |      172.17.0.1 | GET      "/admin/3254.chunk.css"
+[GIN] 2023/06/20 - 02:34:05 | 304 |      1.1511ms |      172.17.0.1 | GET      "/admin/3254.async.js"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+[GIN] 2023/06/20 - 02:34:05 | 200 |     13.3814ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230620/6D0C5F46-231A-40BA-BCDB-01E9B398F06E.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:34:05Z" level=trace msg="Widget: images Guard: -"
+time="2023-06-20T02:34:05Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png: no such file or directory"
+time="2023-06-20T02:34:05Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/3891B1AF-8BA3-4F45-984C-9E6B5BDA5137.jpg: no such file or directory"
+time="2023-06-20T02:34:05Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png: no such file or directory"
+[GIN] 2023/06/20 - 02:34:05 | 500 |     14.2671ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/BAA838FE-D34D-457E-BCD0-A0138CACBD18.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:34:05Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/16E4724F-5CE0-44F2-9F33-98A0473BF988.png: no such file or directory"
+[GIN] 2023/06/20 - 02:34:05 | 500 |     18.8739ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/57D640A4-7EBB-4F8E-8026-4BC2A2A25FCB.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:34:05 | 500 |     14.6105ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/3891B1AF-8BA3-4F45-984C-9E6B5BDA5137.jpg&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+time="2023-06-20T02:34:05Z" level=error msg="[downalod] images.fields.table.缩略图 open /data/app/data/20230619/061675D1-269E-441E-934D-18C6D33EA5C0.jpg: no such file or directory"
+[GIN] 2023/06/20 - 02:34:05 | 500 |      29.578ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/061675D1-269E-441E-934D-18C6D33EA5C0.jpg&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:34:05 | 500 |     18.3573ms |      172.17.0.1 | GET      "/api/__yao/table/images/download/fields.table.缩略图?name=/20230619/16E4724F-5CE0-44F2-9F33-98A0473BF988.png&token=Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwic2lkIjoiZVZHM01zWXVBR0RoNmdCZ1N4eU1tMTY4NzIyODM1OTg0OSIsImRhdGEiOnt9LCJhdWQiOiJYaWFuZyBNZXRhZGF0YSBBZG1pbiBQYW5lbCIsImV4cCI6MTY4NzIzMTk4MCwianRpIjoiMSIsImlhdCI6MTY4NzIyODM4MCwiaXNzIjoieWFvIiwibmJmIjoxNjg3MjI4MzgwLCJzdWIiOiJVc2VyIFRva2VuIn0.DtElB3A2dZSK5_N2zXIjAvCG0mi4nlXr2noZx7eFuGc"
+[GIN] 2023/06/20 - 02:34:05 | 400 |       495.9µs |      172.17.0.1 | GET      "/api/xiang/import/images/setting"
+time="2023-06-20T02:36:33Z" level=info msg="[Watch] Exit(1)"
+time="2023-06-20T02:36:33Z" level=info msg="[Watch] handler exit"
+time="2023-06-20T02:36:33Z" level=error msg="[Server] 0.0.0.0:5099 restarting (close tcp4 0.0.0.0:5099: use of closed network connection)"
+time="2023-06-20T02:36:33Z" level=info msg="[Server] 0.0.0.0:5099 was closed"

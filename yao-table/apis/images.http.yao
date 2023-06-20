@@ -1,0 +1,23 @@
+{
+  "name": "Photo Preview API",
+  "version": "1.0.0",
+  "description": "Photo API",
+  "guard": "bearer-jwt",
+  "paths": [
+    {
+        "path": "/search",
+        "method": "GET",
+        "process": "models.images.Paginate",
+        "in": [":query-param", "$query.page", "$query.pagesize"],
+        "out": { "status": 200, "type": "application/json" }
+    },
+    {
+        "path": "/save",
+        "method": "POST",
+        "guard": "bearer-jwt, scripts.guard.User",
+        "process": "models.images.Save",
+        "in": [":payload"],
+        "out": { "status": 200, "type": "application/json" }
+    }
+  ]
+}

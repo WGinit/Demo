@@ -1,0 +1,187 @@
+{
+    "name": "图床",
+    "action": {
+      "bind": { "model": "images"},
+      "search": {
+        "default": [{ "orders": [{ "column": "id", "option": "desc" }] }, 1, 10]
+      }
+    },
+    "layout": {
+      "primary": "id",
+      "header": {
+        "preset": {
+            "batch": {
+                "columns": [
+                    { "name": "名称", "width": 12 }
+                ],
+                "deletable": true
+            },
+            "import": {
+                "name": "images",
+                "operation": [{ "title": "跳转", "link": "https://baidu.com" }]
+            }
+        }
+      },
+      "filter": {
+        "columns": [
+            {
+                "name": "名称",
+                "width": 4
+            }
+        ],
+        "actions": [
+          {
+            "icon": "icon-plus",
+            "width": 3,
+            "action": {
+              "Common.openModal": {
+                "width": 1200,
+                "Form": {
+                  "type": "edit",
+                  "model": "images"
+                }
+              }
+            },
+            "title": "添加"
+          }
+        ]
+      },
+      "table": {
+        "props": {},
+        "columns": [
+            {
+                "width": 100,
+                "name": "ID"
+            },
+          {
+            "width": 150,
+            "name": "名称"
+          },
+          {
+            "width": 200,
+            "name": "描述"
+          },
+          {
+            "width": 200,
+            "name": "缩略图"
+          },
+          {
+            "name": "创建时间",
+            "width": 200
+          },
+          {
+            "name": "更新时间",
+            "width": 200
+          }
+        ],
+        "operation": {
+          "fold": false,
+          "actions": [
+            {
+              "action": {
+                "Common.openModal": {
+                  "width": 1200,
+                  "Form": {
+                    "type": "view",
+                    "model": "images"
+                  }
+                }
+              },
+              "title": "查看",
+              "icon": "icon-eye"
+            },
+            {
+              "title": "编辑",
+              "icon": "icon-edit-2",
+              "action": {
+                "Common.openModal": {
+                  "Form": {
+                    "type": "edit",
+                    "model": "images"
+                  }
+                }
+              }
+            },
+            {
+              "icon": "icon-trash-2",
+              "action": {
+                "Table.delete": {}
+              },
+              "style": "danger",
+              "title": "删除"
+            }
+          ]
+        }
+      }
+    },
+    "fields": {
+      "filter": {
+        "名称": {
+          "bind": "where.name.match",
+          "edit": {
+            "type": "Input",
+            "compute": "Trim",
+            "props": {
+              "placeholder": "请输入名称搜索"
+            }
+          }
+        },
+        "创建时间": {
+            "bind": "where.created_at.eq",
+            "edit": {
+                "props": {
+                    "placeholder": "请选择创建时间",
+                    "showTime": { "format": "HH:mm:ss" }
+                },
+                "type": "DatePicker"
+            }
+        }
+      },
+      "table": {
+        "昵称": {
+          "bind": "name",
+          "edit": {
+            "type": "Input",
+            "props": {
+              "itemProps": {
+                "rules": [{ "required": true }]
+              },
+              "placeholder": "昵称"
+            }
+          },
+          "view": {
+            "type": "Text",
+            "props": {}
+          }
+        },
+        "缩略图": {
+          "view": { "type": "Image", "compute": "Download" },
+          "edit": {
+            "type": "Upload",
+            "compute": "Upload",
+            "props": {
+              "filetype": "image",
+              "multiple": true,
+              "maxCount": 3,
+              "$api": { "process": "fs.system.Upload" }
+            }
+          },
+          "bind": "urls"
+        },
+        "创建时间": {
+          "bind": "created_at",
+          "view": {
+            "type": "Text",
+            "props": { "format": "YYYY-MM-DD HH:mm:ss" }
+          }
+        },
+        "更新时间": {
+          "bind": "updated_at",
+          "view": {
+            "type": "Text",
+            "props": { "format": "YYYY-MM-DD HH:mm:ss" }
+          }
+        }
+      }
+    }
+  }

@@ -1,0 +1,21 @@
+{
+    "name": "图床",
+    "table": { "name": "images", "comment": "图床" },
+    "columns": [
+      { "label": "ID", "name": "id", "type": "ID", "comment": "ID" },
+      {
+        "label": "名称",
+        "name": "name",
+        "type": "string",
+        "index": true
+      },
+      {
+        "label": "描述",
+        "name": "description",
+        "type": "string"
+      },
+      { "label": "缩略图", "name": "urls", "type": "json", "nullable": true }
+    ],
+    "values": [],
+    "option": { "timestamps": true, "soft_deletes": true }
+  }

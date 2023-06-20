@@ -1,0 +1,111 @@
+{
+    "name": "图床",
+    "action": {
+      "bind": { "model": "images", "option": {} }
+    },
+    "layout": {
+      "actions": [
+        {
+          "title": "保存",
+          "icon": "icon-check",
+          "showWhenAdd": true,
+          "style": "primary",
+          "action": [
+            {
+              "name": "Submit",
+              "type": "Form.submit",
+              "payload": {}
+            },
+            {
+              "name": "Back",
+              "type": "Common.closeModal",
+              "payload": {}
+            }
+          ]
+        },
+        {
+          "title": "返回",
+          "divideLine": true,
+          "showWhenAdd": true,
+          "showWhenView": true,
+          "icon": "icon-arrow-left",
+          "action": [
+            {
+              "name": "closeModal",
+              "type": "Common.closeModal",
+              "payload": {}
+            }
+          ]
+        }
+      ],
+      "form": {
+        "sections": [
+          {
+            "columns": [
+              {
+                "width": 12,
+                "name": "名称"
+              },
+              {
+                "width": 24,
+                "name": "缩略图"
+              },
+              {
+                "width": 24,
+                "name": "详细描述"
+              }
+            ]
+          }
+        ],
+        "props": {}
+      },
+      "config": { "showAnchor": true },
+
+      "primary": "id",
+      "operation": {
+        "preset": {
+          "save": {
+            "back": true
+          },
+          "back": {}
+        }
+      }
+    },
+    "fields": {
+      "form": {
+        "名称": {
+          "bind": "name",
+          "edit": {
+            "type": "Input",
+            "props": {
+              "itemProps": {
+                "rules": [{ "required": true }]
+              },
+              "placeholder": "名称"
+            }
+          }
+        },
+        "详细描述": {
+          "bind": "description",
+          "edit": {
+            "props": { "rows": 5 },
+            "type": "TextArea"
+          }
+        },
+        "缩略图": {
+          "bind": "urls",
+          "view": { "type": "Image", "compute": "Download" },
+          "edit": {
+            "type": "Upload",
+            "compute": "Upload",
+            "props": {
+              "filetype": "image",
+              "multiple": true,
+              "maxCount": 3,
+              "$api": { "process": "fs.system.Upload" }
+            }
+          }
+        }
+      }
+    }
+  }
